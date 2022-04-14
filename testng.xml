@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/de.singh2/IdeaProjects/TestNGAssignment1/src/class2.java">
+        <groups>
+            <run>
+                <include name="Regression"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="class2">
+                <methods>
+                    <include name="A"/>
+                    <include name="B"/>
+                    <include name="C"/>
+                    <include name="D"/>
+                    <include name="E"/>
+                </methods>
+            </class>
+            <class name="class1">
+                <methods>
+                    <include name="One"/>
+                    <include name="Two"/>
+                    <include name="three"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
